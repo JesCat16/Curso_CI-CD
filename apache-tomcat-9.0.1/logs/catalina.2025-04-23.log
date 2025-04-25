@@ -1,0 +1,648 @@
+23-Apr-2025 15:02:27.145 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:02:27.150 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:02:27.150 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:02:27.151 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:02:27.152 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:02:27.152 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:02:27.152 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:02:27.152 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:02:27.153 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:02:27.153 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:02:27.153 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:02:27.153 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:02:27.362 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:02:27.607 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:02:27.614 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:02:27.615 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:02:27.615 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 851 ms
+23-Apr-2025 15:02:27.639 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:02:27.639 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:02:27.648 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:02:27.920 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [271] ms
+23-Apr-2025 15:02:27.921 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:02:28.274 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [352] ms
+23-Apr-2025 15:02:28.274 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:02:28.304 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [30] ms
+23-Apr-2025 15:02:28.304 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:02:28.329 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [25] ms
+23-Apr-2025 15:02:28.330 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:02:28.349 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [19] ms
+23-Apr-2025 15:02:28.354 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:02:28.362 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:02:28.365 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 749 ms
+23-Apr-2025 15:07:25.848 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:07:25.851 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:07:25.852 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:07:25.852 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:07:25.852 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:07:25.852 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:07:25.852 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:07:25.853 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:07:25.948 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:07:26.195 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:07:26.201 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:07:26.203 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:07:26.203 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 627 ms
+23-Apr-2025 15:07:26.226 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:07:26.226 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:07:26.232 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:07:26.471 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [238] ms
+23-Apr-2025 15:07:26.471 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:07:26.811 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [340] ms
+23-Apr-2025 15:07:26.812 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:07:26.857 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [44] ms
+23-Apr-2025 15:07:26.857 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:07:26.900 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [43] ms
+23-Apr-2025 15:07:26.900 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:07:26.931 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [30] ms
+23-Apr-2025 15:07:26.932 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:07:26.939 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:07:26.943 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 739 ms
+23-Apr-2025 15:07:44.991 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:07:44.991 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:08:40.693 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:08:40.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:08:40.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:08:40.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:08:40.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:08:40.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:08:40.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:08:40.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:08:40.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:08:40.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:08:40.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:08:40.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:08:40.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:08:40.700 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:08:40.783 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:08:41.102 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:08:41.107 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:08:41.109 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:08:41.110 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 661 ms
+23-Apr-2025 15:08:41.133 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:08:41.133 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:08:41.145 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:08:41.395 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [249] ms
+23-Apr-2025 15:08:41.395 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:08:41.652 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [257] ms
+23-Apr-2025 15:08:41.653 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:08:41.675 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [22] ms
+23-Apr-2025 15:08:41.676 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:08:41.696 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [20] ms
+23-Apr-2025 15:08:41.696 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:08:41.709 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [13] ms
+23-Apr-2025 15:08:41.712 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:08:41.719 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:08:41.720 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 611 ms
+23-Apr-2025 15:08:51.115 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:08:51.115 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:12:13.641 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:12:13.643 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:12:13.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:12:13.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:12:13.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:12:13.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:12:13.644 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:12:13.645 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:12:13.646 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:12:13.647 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:12:13.647 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:12:13.647 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:12:13.647 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:12:13.647 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:12:13.730 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:12:13.736 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8001]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:622)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:645)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1039)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+23-Apr-2025 15:12:13.737 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:12:13.738 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:622)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:645)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1039)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+23-Apr-2025 15:12:13.738 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 364 ms
+23-Apr-2025 15:12:13.759 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:12:13.760 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:12:13.768 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:12:14.252 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+23-Apr-2025 15:12:14.273 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [505] ms
+23-Apr-2025 15:12:14.274 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:12:14.558 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [284] ms
+23-Apr-2025 15:12:14.558 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:12:14.584 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [25] ms
+23-Apr-2025 15:12:14.584 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:12:14.604 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [20] ms
+23-Apr-2025 15:12:14.604 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:12:14.622 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [18] ms
+23-Apr-2025 15:12:14.625 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 885 ms
+23-Apr-2025 15:12:14.628 GRAVE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:759)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+23-Apr-2025 15:12:14.629 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:12:14.629 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:12:14.629 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Apr-2025 15:12:14.642 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:12:14.642 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:12:14.643 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:12:14.643 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:13:52.342 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+23-Apr-2025 15:13:52.387 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:13:52.442 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [55] ms
+23-Apr-2025 15:13:58.829 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:13:58.831 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:13:58.833 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:13:58.833 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:13:58.833 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:13:58.833 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:13:58.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:13:58.835 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:13:58.926 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:13:58.932 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8001]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:622)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:645)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1039)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+23-Apr-2025 15:13:58.933 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:13:58.934 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:622)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:645)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1039)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+23-Apr-2025 15:13:58.935 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 359 ms
+23-Apr-2025 15:13:58.968 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:13:58.969 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:13:58.981 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:13:59.406 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [191] milliseconds.
+23-Apr-2025 15:13:59.427 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [445] ms
+23-Apr-2025 15:13:59.427 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:13:59.719 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [292] ms
+23-Apr-2025 15:13:59.719 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:13:59.742 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [23] ms
+23-Apr-2025 15:13:59.743 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:13:59.762 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [19] ms
+23-Apr-2025 15:13:59.763 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:13:59.776 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [14] ms
+23-Apr-2025 15:13:59.779 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 844 ms
+23-Apr-2025 15:13:59.783 GRAVE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:759)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:705)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+23-Apr-2025 15:13:59.783 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:13:59.783 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:13:59.784 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Apr-2025 15:13:59.796 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:13:59.796 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:13:59.796 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:13:59.797 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:15:31.907 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
+23-Apr-2025 15:15:31.912 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Catalina.stop: 
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:408)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:497)
+
+23-Apr-2025 15:15:36.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:15:36.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:15:36.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:15:36.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:15:36.701 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:15:36.701 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:15:36.701 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:15:36.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:15:36.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:15:36.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:15:36.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:15:36.703 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:15:36.704 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:15:36.774 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:15:36.962 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:15:36.967 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:15:36.968 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:15:36.968 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 478 ms
+23-Apr-2025 15:15:36.990 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:15:36.990 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:15:36.995 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:15:37.189 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [192] ms
+23-Apr-2025 15:15:37.189 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:15:37.467 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [278] ms
+23-Apr-2025 15:15:37.468 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:15:37.493 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [26] ms
+23-Apr-2025 15:15:37.493 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:15:37.511 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [17] ms
+23-Apr-2025 15:15:37.511 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:15:37.526 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [14] ms
+23-Apr-2025 15:15:37.528 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:15:37.534 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:15:37.536 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 567 ms
+23-Apr-2025 15:15:44.840 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:15:44.840 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:16:50.013 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Apr-2025 15:16:50.015 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:16:50.588 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:16:51.148 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Apr-2025 15:16:51.195 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:16:51.197 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:16:51.199 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:16:51.201 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:19:23.248 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:19:23.250 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:19:23.251 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:19:23.251 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:19:23.252 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:19:23.345 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:19:23.602 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:19:23.607 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:19:23.610 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:19:23.611 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 569 ms
+23-Apr-2025 15:19:23.630 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:19:23.630 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:19:23.635 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:19:23.825 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [190] ms
+23-Apr-2025 15:19:23.825 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:19:24.075 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [250] ms
+23-Apr-2025 15:19:24.076 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:19:24.099 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [22] ms
+23-Apr-2025 15:19:24.099 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:19:24.116 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [16] ms
+23-Apr-2025 15:19:24.116 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:19:24.127 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [11] ms
+23-Apr-2025 15:19:24.129 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:19:24.136 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:19:24.139 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 528 ms
+23-Apr-2025 15:19:34.640 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:19:34.640 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:24:36.405 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
+23-Apr-2025 15:24:39.628 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+23-Apr-2025 15:24:39.630 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+23-Apr-2025 15:24:39.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+23-Apr-2025 15:24:39.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Apr-2025 15:24:39.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Apr-2025 15:24:39.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Apr-2025 15:24:39.631 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+23-Apr-2025 15:24:39.632 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jmdje\devops\apache-tomcat-9.0.1\conf\logging.properties
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jmdje\devops\apache-tomcat-9.0.1
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jmdje\devops\apache-tomcat-9.0.1\temp
+23-Apr-2025 15:24:39.633 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jmdje\Maven\apache-maven-3.9.9\bin;C:\Users\jmdje\AppData\Local\Microsoft\WindowsApps;C:\Users\jmdje\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmdje\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;;C:\Users\jmdje\.dotnet\tools;;.]
+23-Apr-2025 15:24:39.721 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:24:39.936 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:24:39.941 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:24:39.943 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2025 15:24:39.944 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 520 ms
+23-Apr-2025 15:24:39.966 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Apr-2025 15:24:39.966 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+23-Apr-2025 15:24:39.972 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs]
+23-Apr-2025 15:24:40.183 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\docs] has finished in [210] ms
+23-Apr-2025 15:24:40.183 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples]
+23-Apr-2025 15:24:40.463 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\examples] has finished in [279] ms
+23-Apr-2025 15:24:40.463 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager]
+23-Apr-2025 15:24:40.486 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\host-manager] has finished in [23] ms
+23-Apr-2025 15:24:40.487 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager]
+23-Apr-2025 15:24:40.504 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\manager] has finished in [17] ms
+23-Apr-2025 15:24:40.505 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT]
+23-Apr-2025 15:24:40.517 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jmdje\devops\apache-tomcat-9.0.1\webapps\ROOT] has finished in [12] ms
+23-Apr-2025 15:24:40.520 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Apr-2025 15:24:40.527 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2025 15:24:40.528 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 583 ms
+23-Apr-2025 15:25:07.355 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Apr-2025 15:25:07.355 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:410)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
